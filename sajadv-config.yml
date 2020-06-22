@@ -68,7 +68,7 @@ storage:
    images: /home/uploads/images/
 
 logging:
-level:
+  level:
     org:
-    springframework:
+      springframework:
         cache: TRACE
