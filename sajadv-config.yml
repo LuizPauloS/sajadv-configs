@@ -3,8 +3,7 @@ server:
     context-path: /sajadv-persons-api/v1
 
 spring:
-  profiles:
-    active: default
+  profiles: default
   jpa:
     hibernate.ddl-auto: update
     show-sql: true
