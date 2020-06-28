@@ -23,6 +23,12 @@ spring:
       ribbon:
         enabled: false
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
 eureka:
   instance:
     prefer-ip-address: true
